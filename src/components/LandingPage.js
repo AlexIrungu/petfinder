@@ -17,4 +17,4 @@ function LandingPage(){
     )
 
 }
-export function LandingPage()
+export default LandingPage
