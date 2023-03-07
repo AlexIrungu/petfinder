@@ -3,9 +3,9 @@ import petsStore  from "../data/PetsStore";
 import PetCard from "../components/PetsCard";
 import Delete from "../components/DeletePets";
 import Edit from "../components/EditPets";
-import Search from "../components/SearchForPets";
-import axios from "axios";
-import { useState,useEffect } from "react";
+//import Search from "../components/SearchForPets";
+//import axios from "axios";
+//import { useState,useEffect } from "react";
 import AddNewPet from "../components/AddNewPets";
 import { Link } from "react-router-dom";
 

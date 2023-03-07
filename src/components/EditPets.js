@@ -21,7 +21,7 @@ let other_pets = pets.petsList.filter((thispet)=>{
 })
 console.log(other_pets)
 axios
-.put(`http://localhost:9292/${pet.id}`,editPet)
+.put(`https://alexirungu.onrender.com/${pet.id}`,editPet)
 .then((r) => pets.setPetsStore([...other_pets, editPet])
 );
 }

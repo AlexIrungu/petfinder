@@ -17,7 +17,7 @@ function AddPet({user_id}){
     e.preventDefault()
     setShowForm(false)
     console.log(newPet)
-    axios.post(`http://localhost:9292/`,newPet).then((r) =>
+    axios.post(`https://alexirungu.onrender.com/`,newPet).then((r) =>
     pets.setPetsStore([...pets.petsList, r.data])
 );
     }

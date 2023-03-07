@@ -9,7 +9,7 @@ function Register({changeForm}){
     console.log(newUser)
     const handleSubmit = (e) =>{
         e.preventDefault()
-        axios.post("http://localhost:9292/",newUser)
+        axios.post("https://alexirungu.onrender.com/",newUser)
         changeForm()
     }
     return(

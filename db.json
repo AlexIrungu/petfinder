@@ -1,0 +1,112 @@
+[
+    {
+    "id": 1,
+    "username": "person",
+    "email": null,
+    "password": "password",
+    "first_name": null,
+    "last_name": null,
+    "created_at": "2023-03-06T18:25:58.270Z",
+    "updated_at": "2023-03-06T18:25:58.270Z"
+    },
+    {
+    "id": 2,
+    "username": "Angelyn Cronin",
+    "email": null,
+    "password": "RtpDgsXkbzAg",
+    "first_name": null,
+    "last_name": null,
+    "created_at": "2023-03-06T18:25:59.377Z",
+    "updated_at": "2023-03-06T18:25:59.377Z"
+    },
+    {
+    "id": 3,
+    "username": "Alida Deckow",
+    "email": null,
+    "password": "iLKKKLYgca",
+    "first_name": null,
+    "last_name": null,
+    "created_at": "2023-03-06T18:25:59.460Z",
+    "updated_at": "2023-03-06T18:25:59.460Z"
+    },
+    {
+    "id": 4,
+    "username": "Fr. Salvatore Tromp",
+    "email": null,
+    "password": "KaIVqOmdN",
+    "first_name": null,
+    "last_name": null,
+    "created_at": "2023-03-06T18:25:59.661Z",
+    "updated_at": "2023-03-06T18:25:59.661Z"
+    },
+    {
+    "id": 5,
+    "username": "Roseanna Armstrong",
+    "email": null,
+    "password": "FLkaPcOdzVwv",
+    "first_name": null,
+    "last_name": null,
+    "created_at": "2023-03-06T18:25:59.751Z",
+    "updated_at": "2023-03-06T18:25:59.751Z"
+    },
+    {
+    "id": 6,
+    "username": "Chung Miller",
+    "email": null,
+    "password": "juixAytVRC",
+    "first_name": null,
+    "last_name": null,
+    "created_at": "2023-03-06T18:25:59.840Z",
+    "updated_at": "2023-03-06T18:25:59.840Z"
+    },
+    {
+    "id": 7,
+    "username": "Ira Beer",
+    "email": null,
+    "password": "sLUiIRNJatOlaFV",
+    "first_name": null,
+    "last_name": null,
+    "created_at": "2023-03-06T18:25:59.930Z",
+    "updated_at": "2023-03-06T18:25:59.930Z"
+    },
+    {
+    "id": 8,
+    "username": "Darron Daugherty",
+    "email": null,
+    "password": "vGLIauxr",
+    "first_name": null,
+    "last_name": null,
+    "created_at": "2023-03-06T18:26:00.017Z",
+    "updated_at": "2023-03-06T18:26:00.017Z"
+    },
+    {
+    "id": 9,
+    "username": "Jefferson Gislason",
+    "email": null,
+    "password": "rwpJTiTaWp",
+    "first_name": null,
+    "last_name": null,
+    "created_at": "2023-03-06T18:26:00.110Z",
+    "updated_at": "2023-03-06T18:26:00.110Z"
+    },
+    {
+    "id": 10,
+    "username": "Pricilla Klein",
+    "email": null,
+    "password": "pzGreJWvJXJJ",
+    "first_name": null,
+    "last_name": null,
+    "created_at": "2023-03-06T18:26:00.210Z",
+    "updated_at": "2023-03-06T18:26:00.210Z"
+    },
+    {
+    "id": 11,
+    "username": "Avis Walsh",
+    "email": null,
+    "password": "QmItdpqBpsX",
+    "first_name": null,
+    "last_name": null,
+    "created_at": "2023-03-06T18:26:00.309Z",
+    "updated_at": "2023-03-06T18:26:00.309Z"
+    }
+    ]

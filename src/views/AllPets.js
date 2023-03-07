@@ -2,7 +2,7 @@ import PetCard from "../components/PetsCard";
 import { useStore } from "zustand";
 import  petsStore  from "../data/PetsStore";
 import Search from "../components/SearchForPets";
-import AddPet from "../components/AddNewPets";
+//import AddPet from "../components/AddNewPets";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import { useEffect } from "react";
@@ -13,7 +13,7 @@ function AllPets(){
     const [myPets, setMyPets] = useState([]);
 useEffect(() => {
 //this will be the fetch to a specific users pets
-axios.get("http://localhost:9292/").then((r) => setMyPets(r.data));
+axios.get("https://alexirungu.onrender.com/").then((r) => setMyPets(r.data));
     }, []);
     useEffect(() => {
       pets.setPetsStore(myPets);

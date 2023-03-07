@@ -1,8 +1,8 @@
 import { useStore } from "zustand";
 import  petsStore  from "../data/PetsStore";
-import axios from "axios";
+//import axios from "axios";
 import { useState } from "react";
-import { useEffect } from "react";
+//import { useEffect } from "react";
 import Register from "../components/RegisterUsers";
 import Login from "../components/LoginUser";
 
