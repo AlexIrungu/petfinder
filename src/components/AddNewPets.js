@@ -17,7 +17,7 @@ function AddPet({user_id}){
     e.preventDefault()
     setShowForm(false)
     console.log(newPet)
-    axios.post(`https://wamae-pet-finder.onrender.com/pet`,newPet).then((r) =>
+    axios.post(`http://localhost:9292/`,newPet).then((r) =>
     pets.setPetsStore([...pets.petsList, r.data])
 );
     }

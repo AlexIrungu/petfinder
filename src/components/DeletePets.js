@@ -9,7 +9,7 @@ function Delete({pet}) {
    })
   const handleDelete = () => {
     axios
-      .delete(`https://wamae-pet-finder.onrender.com/pets/${pet.id}`)
+      .delete(`http://localhost:9292/${pet.id}`)
       .then(() => pets.setPetsStore(other_pets));
   };
   return <button className="border-2 m-2 bg-green-300 text-black  hover:border-black hover:text-white hover:bg-black" onClick={handleDelete}> Delete</button>;

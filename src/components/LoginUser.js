@@ -10,7 +10,7 @@ function Login() {
   // const [users,setUsers] = useState([])
   // console.log(users)
   // useEffect(()=>{
-  //  axios.get("https://wamae-pet-finder.onrender.com").then((r) =>
+  //  axios.get("http://localhost:9292/").then((r) =>
   //   setUsers(r.data)
   //  )
   // },[])
@@ -29,7 +29,7 @@ function Login() {
   //   if(found_user.length !== 0){
   //   if(found_user[0].password === login.password){
     
-  //     axios.get(`https://wamae-pet-finder.onrender.com/pets/${found_user[0].username}`).then((r) =>{
+  //     axios.get(`http://localhost:9292/${found_user[0].username}`).then((r) =>{
   //     if(r.data.length === 0){
   //       pets.setPetsStore([{
   //       id:null,

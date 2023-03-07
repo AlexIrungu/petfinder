@@ -9,7 +9,7 @@ function Register({changeForm}){
     console.log(newUser)
     const handleSubmit = (e) =>{
         e.preventDefault()
-        axios.post("https://wamae-pet-finder.onrender.com/user",newUser)
+        axios.post("http://localhost:9292/",newUser)
         changeForm()
     }
     return(

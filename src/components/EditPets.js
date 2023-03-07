@@ -21,7 +21,7 @@ let other_pets = pets.petsList.filter((thispet)=>{
 })
 console.log(other_pets)
 axios
-.put(`https://wamae-pet-finder.onrender.com/pets/${pet.id}`,editPet)
+.put(`http://localhost:9292/${pet.id}`,editPet)
 .then((r) => pets.setPetsStore([...other_pets, editPet])
 );
 }

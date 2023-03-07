@@ -13,7 +13,7 @@ function AllPets(){
     const [myPets, setMyPets] = useState([]);
 useEffect(() => {
 //this will be the fetch to a specific users pets
-axios.get("https://wamae-pet-finder.onrender.com/pets").then((r) => setMyPets(r.data));
+axios.get("http://localhost:9292/").then((r) => setMyPets(r.data));
     }, []);
     useEffect(() => {
       pets.setPetsStore(myPets);
