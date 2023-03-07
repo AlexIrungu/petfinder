@@ -1,19 +1,19 @@
 import axios from "axios";
 import { useStore } from "zustand";
-import { petsStore } from "../data/PetsKeeper";
+import  petsStore from "../data/PetsStore";
 
 function Search(){
 const pets = useStore(petsStore)
 const handleSearch = (e) => {
     console.log(e.target.value)
-axios.post("http://localhost:9292/",{
+axios.post("https://wamae-pet-finder.onrender.com/pets/search_all",{
     query: e.target.value
 }).then( (r) =>
     pets.setPetsStore(r.data)
 )
 } 
 return(
-<input className="search" type="text" placeholder="Search by name or breed" onChange={handleSearch}></input>
+<input className="border-2 border-black text-center" type="text" placeholder="Search pet name or breed" onChange={handleSearch}></input>
 )
 }
 export default Search;

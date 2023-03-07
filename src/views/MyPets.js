@@ -1,50 +1,43 @@
 import { useStore } from "zustand";
-import { petsStore } from "../data/PetsKeeper";
-import PetCard from "../componets/PetsCard";
-import Delete from "../componets/DeletePets";
-import Edit from "../componets/EditPets";
-import AddPet from "../componets/AddNewPets"
-import { Link } from "react-router-dom";
+import petsStore  from "../data/PetsStore";
+import PetCard from "../components/PetsCard";
+import Delete from "../components/DeletePets";
+import Edit from "../components/EditPets";
+import Search from "../components/SearchForPets";
 import axios from "axios";
 import { useState,useEffect } from "react";
+import AddNewPet from "../components/AddNewPets";
+import { Link } from "react-router-dom";
 
-function Mypets() {
-  const myPets = useStore(petsStore);
-
-  return (
+function Mypets(){
+const myPets = useStore(petsStore);
+return(
     <>
-    <div className="container">
-      <h1>Petfinder</h1>
-      
-      <div className="links">
-        <Link to="/allpets" className="link">
-           all pets
-        </Link>
-        <Link to="/" className="link">
-          Home
-        </Link>
-        <div className="add-pet">
-
-          <AddPet className='add-pet' user_id={myPets.petsList.user_id} />
-        </div>
-      </div>
-      <div className="card-container">
-        {myPets.petsList.map((pet) => {
-          return <>
-          <div key={pet.id}>
-            <PetCard pet={pet} />
-            <div className="pet-buttons">
-              <Delete pet={pet} />
-              <Edit pet={pet} />
-            </div>
-            
-          </div>
-          </>
-})}
-      </div>
+<div className="bg-green-300 ">
+<h1 className="text-4xl mr absolute ml-4">Petfinder</h1>
+<div className="flex flex-row  justify-center items-center ">
+<Link exact to="/allpets"><p className=" text-blue-800 underline hover:text-red-800 mr-8">View all pets</p></Link>
+<Link exact to="/"><p className="text-blue-800 underline hover:text-red-800 mb-6">Home</p></Link>
+<AddNewPet user_id={myPets.petsList[0].user_id}/>
+</div>
+</div>
+<div className="bg-red-300 ">
+{
+myPets.petsList.map((pet)=>{
+return <>
+    <PetCard pet={pet}/>
+    <div className="flex justify-center">
+    <Delete pet={pet}/>
+    <Edit pet={pet}/>
     </div>
     </>
-  );
+})
+}
+</div>
+    </>
+)
+
+
 }
 
-export default Mypets;
+export default Mypets

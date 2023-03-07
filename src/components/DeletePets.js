@@ -1,7 +1,6 @@
-
 import axios from "axios";
 import { useStore } from "zustand";
-import { petsStore } from "../data/PetsKeeper";
+import  petsStore  from "../data/PetsStore";
 
 function Delete({pet}) {
   const pets = useStore(petsStore);
@@ -10,10 +9,10 @@ function Delete({pet}) {
    })
   const handleDelete = () => {
     axios
-      .delete(`http://localhost:9292/${pet.id}`)
+      .delete(`https://wamae-pet-finder.onrender.com/pets/${pet.id}`)
       .then(() => pets.setPetsStore(other_pets));
   };
-  return <button onClick={handleDelete} id="delete-btn"> Delete</button>;
+  return <button className="border-2 m-2 bg-green-300 text-black  hover:border-black hover:text-white hover:bg-black" onClick={handleDelete}> Delete</button>;
 }
 
 export default Delete;

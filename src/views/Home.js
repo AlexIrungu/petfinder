@@ -1,28 +1,27 @@
+import { useStore } from "zustand";
+import  petsStore  from "../data/PetsStore";
+import axios from "axios";
 import { useState } from "react";
-import Register from "../componets/RegisterUsers";
-import Login from "../componets/LoginUser";
+import { useEffect } from "react";
+import Register from "../components/RegisterUsers";
+import Login from "../components/LoginUser";
 
 function Home() {
-  const [displayRegister,displayLogin] = useState(true)
+  const [showRegister,showLogin] = useState(true)
   const changeForm = () =>{
-    displayLogin(!displayRegister)
+    showLogin(!showRegister)
   }
-if(displayRegister === true){
+if(showRegister === true){
   return (<>
-    <h1>Petfinder</h1>
+    <h1 className="text-6xl text-center">Petfinder</h1>
     <Register changeForm={changeForm}/>
-    <p onClick={changeForm} className="lUser">Already registered? 
-    <div className="hover">
-    Go to login
-    </div>
-    </p>
-    
+    <p className="text-center text-blue-800 underline hover:text-red-800 " onClick={changeForm}>Already registered? Go to login</p>
     </>);
 }else{
   return (<>
-    <h1 >Petfinder</h1>
+    <h1 className="text-6xl text-center ">Petfinder</h1>
     <Login changeForm={changeForm}/>
-    <p  onClick={changeForm}  className="lUser">Go back to registration</p>
+    <p className="text-center text-blue-800 underline hover:text-red-800 " onClick={changeForm}>Go back to registration</p>
     </>);
 }
 }

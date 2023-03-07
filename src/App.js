@@ -1,48 +1,26 @@
-// // import logo from './logo.svg';
-// import React from 'react';
-// import NavBar from './components/NavBar';
-// import Login from './components/Login';
-// import  LandingPage  from './components/LandingPage';
-// import Home from './components/Home';
-// import About from './components/About';
-// import './App.css';
-// import SignUp from './components/SignUp';
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <NavBar />
-//         <Login />
-//         <SignUp />
-//         <LandingPage />
-//         <Home />
-//         <About />
-  
-//       </header>
-//     </div>
-//   );
-// }
-
-// export default App;
-
-//import logo from './logo.svg';
+import logo from './logo.svg';
 import './App.css';
 import Home from './views/Home';
-import AllPets from './views/AllPets';
-import { BrowserRouter as Router,Routes,Route } from "react-router-dom";
+import PetCard from './components/PetsCard';
+import Search from './components/SearchForPets';
 import Mypets from './views/MyPets';
+import AllPets from './views/AllPets';
+import { BrowserRouter as Router, Switch,Route } from "react-router-dom";
+import Login from './components/LoginUser';
+import Register from './components/RegisterUsers';
 
 
 
 function App() {
   return (
     <Router>
-    <Routes>
-    <Route exact path="/" element={<Home/>}/>
-    <Route exact path="/mypets" element={<Mypets/>}/>
-    <Route exact path="/allpets" element={<AllPets/>}/>
-    </Routes>
+    <Switch>
+    <Route exact path="/"><Home/></Route>
+    <Route exact path="/mypets"><Mypets/></Route>
+    <Route exact path="/allpets"><AllPets/></Route>
+    <Route path = "/login"><Login/></Route>
+    <Route path = "/signup"><Register/></Route>
+    </Switch>
     </Router>
   );
 }

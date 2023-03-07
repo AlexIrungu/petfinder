@@ -10,4 +10,4 @@ setPetsStore:(pet) =>{
 })
 const petsStore = create(petsData)
 
-export {petsStore};
+export default {petsStore};
