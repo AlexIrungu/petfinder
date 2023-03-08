@@ -24,7 +24,7 @@ return(
      </NavLink>
      <NavLink>
      
-        <button onClick={() => { window.location.href = 'http://localhost:3000/signup' }}>Logout</button>
+        <button onClick={() => { window.location.href = 'https://petfinder-chi.vercel.app/home/signup' }}>Logout</button>
       
      </NavLink>
 
