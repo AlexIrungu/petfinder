@@ -1,27 +1,26 @@
-//import logo from './logo.svg';
 import './App.css';
-import Home from './views/Home';
-//import PetCard from './components/PetsCard';
-//import Search from './components/SearchForPets';
-import Mypets from './views/MyPets';
-import AllPets from './views/AllPets';
-import { BrowserRouter as Router, Switch,Route } from "react-router-dom";
-import Login from './components/LoginUser';
-import Register from './components/RegisterUsers';
-
-
+import DisplayPets from './components/DisplayPets';
+import LoginForm from './components/Login';
+import SignupForm from './components/Signup';
+import './index.css'
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import AddPet from './components/AddNewPet';
+import Home from './components/Home';
 
 function App() {
   return (
-    <Router>
-    <Switch>
-    <Route exact path="/"><Home/></Route>
-    <Route exact path="/mypets"><Mypets/></Route>
-    <Route exact path="/allpets"><AllPets/></Route>
-    <Route path = "/login"><Login/></Route>
-    <Route path = "/signup"><Register/></Route>
-    </Switch>
-    </Router>
+    <div className="App">
+      <BrowserRouter>
+        <Routes>
+          <Route path="/login" element={<LoginForm />} />
+          <Route path="/signup" element={<SignupForm />} />
+          <Route path="/pets" element={<DisplayPets />} />
+          <Route path="/home" element={<Home/>} />
+          <Route path="/*" element={<Navigate to="/login" />} />
+          <Route path="/addpet" element={<AddPet/>} />
+        </Routes>
+      </BrowserRouter>
+    </div>
   );
 }
 
