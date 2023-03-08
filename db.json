@@ -1,112 +1,902 @@
 [
     {
     "id": 1,
-    "username": "person",
-    "email": null,
-    "password": "password",
-    "first_name": null,
-    "last_name": null,
-    "created_at": "2023-03-06T18:25:58.270Z",
-    "updated_at": "2023-03-06T18:25:58.270Z"
+    "name": "Katherine Belle",
+    "user_id": "1",
+    "breed": "Ukrainian Levkoy",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-06T18:26:00.450Z",
+    "updated_at": "2023-03-06T18:26:00.450Z"
     },
     {
     "id": 2,
-    "username": "Angelyn Cronin",
-    "email": null,
-    "password": "RtpDgsXkbzAg",
-    "first_name": null,
-    "last_name": null,
-    "created_at": "2023-03-06T18:25:59.377Z",
-    "updated_at": "2023-03-06T18:25:59.377Z"
+    "name": "Poppy",
+    "user_id": "4",
+    "breed": "Savannah",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-06T18:26:00.548Z",
+    "updated_at": "2023-03-06T18:26:00.548Z"
     },
     {
     "id": 3,
-    "username": "Alida Deckow",
-    "email": null,
-    "password": "iLKKKLYgca",
-    "first_name": null,
-    "last_name": null,
-    "created_at": "2023-03-06T18:25:59.460Z",
-    "updated_at": "2023-03-06T18:25:59.460Z"
+    "name": "Sir Pounce-a-lot",
+    "user_id": "9",
+    "breed": "Sokoke",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-06T18:26:00.633Z",
+    "updated_at": "2023-03-06T18:26:00.633Z"
     },
     {
     "id": 4,
-    "username": "Fr. Salvatore Tromp",
-    "email": null,
-    "password": "KaIVqOmdN",
-    "first_name": null,
-    "last_name": null,
-    "created_at": "2023-03-06T18:25:59.661Z",
-    "updated_at": "2023-03-06T18:25:59.661Z"
+    "name": "Katherine Belle",
+    "user_id": "6",
+    "breed": "Javanese",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-06T18:26:00.723Z",
+    "updated_at": "2023-03-06T18:26:00.723Z"
     },
     {
     "id": 5,
-    "username": "Roseanna Armstrong",
-    "email": null,
-    "password": "FLkaPcOdzVwv",
-    "first_name": null,
-    "last_name": null,
-    "created_at": "2023-03-06T18:25:59.751Z",
-    "updated_at": "2023-03-06T18:25:59.751Z"
+    "name": "McFluffy Pants",
+    "user_id": "2",
+    "breed": "Korn Ja",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-06T18:26:00.852Z",
+    "updated_at": "2023-03-06T18:26:00.852Z"
     },
     {
     "id": 6,
-    "username": "Chung Miller",
-    "email": null,
-    "password": "juixAytVRC",
-    "first_name": null,
-    "last_name": null,
-    "created_at": "2023-03-06T18:25:59.840Z",
-    "updated_at": "2023-03-06T18:25:59.840Z"
+    "name": "Sir Loin",
+    "user_id": "11",
+    "breed": "Scottish Fold",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-06T18:26:00.980Z",
+    "updated_at": "2023-03-06T18:26:00.980Z"
     },
     {
     "id": 7,
-    "username": "Ira Beer",
-    "email": null,
-    "password": "sLUiIRNJatOlaFV",
-    "first_name": null,
-    "last_name": null,
-    "created_at": "2023-03-06T18:25:59.930Z",
-    "updated_at": "2023-03-06T18:25:59.930Z"
+    "name": "Cookie Hopper",
+    "user_id": "8",
+    "breed": "Asian",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-06T18:26:01.081Z",
+    "updated_at": "2023-03-06T18:26:01.081Z"
     },
     {
     "id": 8,
-    "username": "Darron Daugherty",
-    "email": null,
-    "password": "vGLIauxr",
-    "first_name": null,
-    "last_name": null,
-    "created_at": "2023-03-06T18:26:00.017Z",
-    "updated_at": "2023-03-06T18:26:00.017Z"
+    "name": "Coco",
+    "user_id": "10",
+    "breed": "Toyger",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-06T18:26:01.182Z",
+    "updated_at": "2023-03-06T18:26:01.182Z"
     },
     {
     "id": 9,
-    "username": "Jefferson Gislason",
-    "email": null,
-    "password": "rwpJTiTaWp",
-    "first_name": null,
-    "last_name": null,
-    "created_at": "2023-03-06T18:26:00.110Z",
-    "updated_at": "2023-03-06T18:26:00.110Z"
+    "name": "Franklin Longfellow",
+    "user_id": "5",
+    "breed": "American Wirehair",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-06T18:26:01.537Z",
+    "updated_at": "2023-03-06T18:26:01.537Z"
     },
     {
     "id": 10,
-    "username": "Pricilla Klein",
-    "email": null,
-    "password": "pzGreJWvJXJJ",
-    "first_name": null,
-    "last_name": null,
-    "created_at": "2023-03-06T18:26:00.210Z",
-    "updated_at": "2023-03-06T18:26:00.210Z"
+    "name": "Lucky",
+    "user_id": "5",
+    "breed": "Colorpoint Shorthair",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-06T18:26:02.657Z",
+    "updated_at": "2023-03-06T18:26:02.657Z"
     },
     {
     "id": 11,
-    "username": "Avis Walsh",
-    "email": null,
-    "password": "QmItdpqBpsX",
-    "first_name": null,
-    "last_name": null,
-    "created_at": "2023-03-06T18:26:00.309Z",
-    "updated_at": "2023-03-06T18:26:00.309Z"
+    "name": "Captain Zissou",
+    "user_id": "1",
+    "breed": "Nebelung",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-06T18:26:02.842Z",
+    "updated_at": "2023-03-06T18:26:02.842Z"
+    },
+    {
+    "id": 12,
+    "name": "Lucky",
+    "user_id": "2",
+    "breed": "European Shorthair",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-06T18:26:02.932Z",
+    "updated_at": "2023-03-06T18:26:02.932Z"
+    },
+    {
+    "id": 13,
+    "name": "Waffles",
+    "user_id": "1",
+    "breed": "Singapura",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-06T18:26:03.033Z",
+    "updated_at": "2023-03-06T18:26:03.033Z"
+    },
+    {
+    "id": 14,
+    "name": "Missy",
+    "user_id": "9",
+    "breed": "Raas",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-06T18:26:03.123Z",
+    "updated_at": "2023-03-06T18:26:03.123Z"
+    },
+    {
+    "id": 15,
+    "name": "Theodore Reginald Meowskewitz",
+    "user_id": "1",
+    "breed": "Japanese Bobtail",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-06T18:26:03.224Z",
+    "updated_at": "2023-03-06T18:26:03.224Z"
+    },
+    {
+    "id": 16,
+    "name": "Franklin Longfellow",
+    "user_id": "8",
+    "breed": "Ragamuffin",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-06T18:26:03.326Z",
+    "updated_at": "2023-03-06T18:26:03.326Z"
+    },
+    {
+    "id": 17,
+    "name": "Charlie",
+    "user_id": "3",
+    "breed": "Sokoke",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-06T18:26:03.421Z",
+    "updated_at": "2023-03-06T18:26:03.421Z"
+    },
+    {
+    "id": 18,
+    "name": "Waffles",
+    "user_id": "7",
+    "breed": "Sokoke",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-06T18:26:03.528Z",
+    "updated_at": "2023-03-06T18:26:03.528Z"
+    },
+    {
+    "id": 19,
+    "name": "Smudge",
+    "user_id": "9",
+    "breed": "Peterbald",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-06T18:26:03.629Z",
+    "updated_at": "2023-03-06T18:26:03.629Z"
+    },
+    {
+    "id": 20,
+    "name": "Tiger",
+    "user_id": "6",
+    "breed": "Himalayan, or Colorpoint Persian",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-06T18:26:03.729Z",
+    "updated_at": "2023-03-06T18:26:03.729Z"
+    },
+    {
+    "id": 21,
+    "name": "Misty",
+    "user_id": "1",
+    "breed": "Colorpoint Shorthair",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-06T18:26:03.831Z",
+    "updated_at": "2023-03-06T18:26:03.831Z"
+    },
+    {
+    "id": 22,
+    "name": "Shadow",
+    "user_id": "2",
+    "breed": "Foldex Cat",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-06T18:26:03.944Z",
+    "updated_at": "2023-03-06T18:26:03.944Z"
+    },
+    {
+    "id": 23,
+    "name": "Lily",
+    "user_id": "5",
+    "breed": "Bambino",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-06T18:26:04.139Z",
+    "updated_at": "2023-03-06T18:26:04.139Z"
+    },
+    {
+    "id": 24,
+    "name": "Theodore Reginald Meowskewitz",
+    "user_id": "4",
+    "breed": "Russian White, Black and Tabby",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-06T18:26:04.249Z",
+    "updated_at": "2023-03-06T18:26:04.249Z"
+    },
+    {
+    "id": 25,
+    "name": "Sir Loin",
+    "user_id": "9",
+    "breed": "PerFold Cat (Experimental Breed - WCF)",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-06T18:26:04.368Z",
+    "updated_at": "2023-03-06T18:26:04.368Z"
+    },
+    {
+    "id": 26,
+    "name": "Felix",
+    "user_id": "1",
+    "breed": "Peterbald",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-06T18:26:05.536Z",
+    "updated_at": "2023-03-06T18:26:05.536Z"
+    },
+    {
+    "id": 27,
+    "name": "Lucy",
+    "user_id": "1",
+    "breed": "Siberian",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-06T18:26:05.706Z",
+    "updated_at": "2023-03-06T18:26:05.706Z"
+    },
+    {
+    "id": 28,
+    "name": "Chloe",
+    "user_id": "8",
+    "breed": "Korean Bobtail",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-06T18:26:05.808Z",
+    "updated_at": "2023-03-06T18:26:05.808Z"
+    },
+    {
+    "id": 29,
+    "name": "Sir Loin",
+    "user_id": "1",
+    "breed": "Khao Manee",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-06T18:26:05.909Z",
+    "updated_at": "2023-03-06T18:26:05.909Z"
+    },
+    {
+    "id": 30,
+    "name": "Lucky",
+    "user_id": "7",
+    "breed": "Sam Sawet",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-06T18:26:06.033Z",
+    "updated_at": "2023-03-06T18:26:06.033Z"
+    },
+    {
+    "id": 31,
+    "name": "Molly",
+    "user_id": "2",
+    "breed": "Lykoi",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-06T18:26:06.151Z",
+    "updated_at": "2023-03-06T18:26:06.151Z"
+    },
+    {
+    "id": 32,
+    "name": "Millie",
+    "user_id": "10",
+    "breed": "Ragamuffin",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-06T18:26:06.264Z",
+    "updated_at": "2023-03-06T18:26:06.264Z"
+    },
+    {
+    "id": 33,
+    "name": "Alfie",
+    "user_id": "2",
+    "breed": "Oregon Rex",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-06T18:26:06.388Z",
+    "updated_at": "2023-03-06T18:26:06.388Z"
+    },
+    {
+    "id": 34,
+    "name": "Misty",
+    "user_id": "10",
+    "breed": "Chantilly-Tiffany",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-06T18:26:06.523Z",
+    "updated_at": "2023-03-06T18:26:06.523Z"
+    },
+    {
+    "id": 35,
+    "name": "Max",
+    "user_id": "7",
+    "breed": "Bengal",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-06T18:26:06.652Z",
+    "updated_at": "2023-03-06T18:26:06.652Z"
+    },
+    {
+    "id": 36,
+    "name": "Lily",
+    "user_id": "9",
+    "breed": "Colorpoint Shorthair",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-06T18:26:06.875Z",
+    "updated_at": "2023-03-06T18:26:06.875Z"
+    },
+    {
+    "id": 37,
+    "name": "Doctor Cucumber",
+    "user_id": "4",
+    "breed": "British Longhair",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-06T18:26:07.011Z",
+    "updated_at": "2023-03-06T18:26:07.011Z"
+    },
+    {
+    "id": 38,
+    "name": "Tuna",
+    "user_id": "10",
+    "breed": "Cheetoh",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-06T18:26:07.135Z",
+    "updated_at": "2023-03-06T18:26:07.135Z"
+    },
+    {
+    "id": 39,
+    "name": "Tator Tot",
+    "user_id": "6",
+    "breed": "Kurilian Bobtail, or Kuril Islands Bobtail",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-06T18:26:08.288Z",
+    "updated_at": "2023-03-06T18:26:08.288Z"
+    },
+    {
+    "id": 40,
+    "name": "Tuna",
+    "user_id": "4",
+    "breed": "British Longhair",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-06T18:26:08.445Z",
+    "updated_at": "2023-03-06T18:26:08.445Z"
+    },
+    {
+    "id": 41,
+    "name": "Lucy",
+    "user_id": "2",
+    "breed": "Korn Ja",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-06T18:26:08.581Z",
+    "updated_at": "2023-03-06T18:26:08.581Z"
+    },
+    {
+    "id": 42,
+    "name": "Poppy",
+    "user_id": "5",
+    "breed": "Highlander",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-06T18:26:08.706Z",
+    "updated_at": "2023-03-06T18:26:08.706Z"
+    },
+    {
+    "id": 43,
+    "name": "Sir Pounce-a-lot",
+    "user_id": "4",
+    "breed": "Australian Mist",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-06T18:26:08.830Z",
+    "updated_at": "2023-03-06T18:26:08.830Z"
+    },
+    {
+    "id": 44,
+    "name": "Franklin Longfellow",
+    "user_id": "3",
+    "breed": "Asian Semi-longhair",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-06T18:26:08.970Z",
+    "updated_at": "2023-03-06T18:26:08.970Z"
+    },
+    {
+    "id": 45,
+    "name": "Smudge",
+    "user_id": "8",
+    "breed": "Korean Bobtail",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-06T18:26:09.132Z",
+    "updated_at": "2023-03-06T18:26:09.132Z"
+    },
+    {
+    "id": 46,
+    "name": "Tiger",
+    "user_id": "9",
+    "breed": "Toyger",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-06T18:26:09.307Z",
+    "updated_at": "2023-03-06T18:26:09.307Z"
+    },
+    {
+    "id": 47,
+    "name": "Tiger",
+    "user_id": "10",
+    "breed": "Kurilian Bobtail",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-06T18:26:09.453Z",
+    "updated_at": "2023-03-06T18:26:09.453Z"
+    },
+    {
+    "id": 48,
+    "name": "Poppy",
+    "user_id": "3",
+    "breed": "British Longhair",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-06T18:26:09.588Z",
+    "updated_at": "2023-03-06T18:26:09.588Z"
+    },
+    {
+    "id": 49,
+    "name": "Lily",
+    "user_id": "11",
+    "breed": "Cornish Rex",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-06T18:26:09.751Z",
+    "updated_at": "2023-03-06T18:26:09.751Z"
+    },
+    {
+    "id": 50,
+    "name": "Tator Tot",
+    "user_id": "9",
+    "breed": "Birman",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-06T18:26:10.049Z",
+    "updated_at": "2023-03-06T18:26:10.049Z"
+    },
+    {
+    "id": 51,
+    "name": "Milo",
+    "user_id": "15",
+    "breed": "Savannah",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-08T08:02:48.337Z",
+    "updated_at": "2023-03-08T08:02:48.337Z"
+    },
+    {
+    "id": 52,
+    "name": "Alfie",
+    "user_id": "22",
+    "breed": "Ojos Azules",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-08T08:02:48.444Z",
+    "updated_at": "2023-03-08T08:02:48.444Z"
+    },
+    {
+    "id": 53,
+    "name": "Lily",
+    "user_id": "13",
+    "breed": "Bambino",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-08T08:02:48.792Z",
+    "updated_at": "2023-03-08T08:02:48.792Z"
+    },
+    {
+    "id": 54,
+    "name": "Cookie Hopper",
+    "user_id": "16",
+    "breed": "Balinese",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-08T08:02:50.028Z",
+    "updated_at": "2023-03-08T08:02:50.028Z"
+    },
+    {
+    "id": 55,
+    "name": "Chloe",
+    "user_id": "15",
+    "breed": "California Spangled",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-08T08:02:50.141Z",
+    "updated_at": "2023-03-08T08:02:50.141Z"
+    },
+    {
+    "id": 56,
+    "name": "Bella",
+    "user_id": "12",
+    "breed": "Snowshoe",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-08T08:02:50.252Z",
+    "updated_at": "2023-03-08T08:02:50.252Z"
+    },
+    {
+    "id": 57,
+    "name": "Sir Pounce-a-lot",
+    "user_id": "14",
+    "breed": "Norwegian Forest Cat",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-08T08:02:50.359Z",
+    "updated_at": "2023-03-08T08:02:50.359Z"
+    },
+    {
+    "id": 58,
+    "name": "Bella",
+    "user_id": "12",
+    "breed": "Cheetoh",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-08T08:02:50.472Z",
+    "updated_at": "2023-03-08T08:02:50.472Z"
+    },
+    {
+    "id": 59,
+    "name": "Franklin Longfellow",
+    "user_id": "16",
+    "breed": "Brazilian Shorthair",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-08T08:02:50.611Z",
+    "updated_at": "2023-03-08T08:02:50.611Z"
+    },
+    {
+    "id": 60,
+    "name": "Millie",
+    "user_id": "18",
+    "breed": "LaPerm",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-08T08:02:50.752Z",
+    "updated_at": "2023-03-08T08:02:50.752Z"
+    },
+    {
+    "id": 61,
+    "name": "Millie",
+    "user_id": "22",
+    "breed": "Bengal",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-08T08:02:51.033Z",
+    "updated_at": "2023-03-08T08:02:51.033Z"
+    },
+    {
+    "id": 62,
+    "name": "Sir Pounce-a-lot",
+    "user_id": "17",
+    "breed": "Lykoi",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-08T08:02:51.162Z",
+    "updated_at": "2023-03-08T08:02:51.162Z"
+    },
+    {
+    "id": 63,
+    "name": "Franklin Longfellow",
+    "user_id": "16",
+    "breed": "Havana Brown",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-08T08:02:51.370Z",
+    "updated_at": "2023-03-08T08:02:51.370Z"
+    },
+    {
+    "id": 64,
+    "name": "Charlie",
+    "user_id": "14",
+    "breed": "Selkirk Rex",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-08T08:02:51.484Z",
+    "updated_at": "2023-03-08T08:02:51.484Z"
+    },
+    {
+    "id": 65,
+    "name": "Smudge",
+    "user_id": "22",
+    "breed": "Turkish Van",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-08T08:02:51.597Z",
+    "updated_at": "2023-03-08T08:02:51.597Z"
+    },
+    {
+    "id": 66,
+    "name": "Sir Loin",
+    "user_id": "20",
+    "breed": "Sokoke",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-08T08:02:51.697Z",
+    "updated_at": "2023-03-08T08:02:51.697Z"
+    },
+    {
+    "id": 67,
+    "name": "Butterscotch",
+    "user_id": "12",
+    "breed": "California Spangled",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-08T08:02:51.900Z",
+    "updated_at": "2023-03-08T08:02:51.900Z"
+    },
+    {
+    "id": 68,
+    "name": "Sir Loin",
+    "user_id": "20",
+    "breed": "Australian Mist",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-08T08:02:53.324Z",
+    "updated_at": "2023-03-08T08:02:53.324Z"
+    },
+    {
+    "id": 69,
+    "name": "Waffles",
+    "user_id": "17",
+    "breed": "Scottish Fold",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-08T08:02:53.425Z",
+    "updated_at": "2023-03-08T08:02:53.425Z"
+    },
+    {
+    "id": 70,
+    "name": "Sir Pounce-a-lot",
+    "user_id": "15",
+    "breed": "Highlander",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-08T08:02:53.533Z",
+    "updated_at": "2023-03-08T08:02:53.533Z"
+    },
+    {
+    "id": 71,
+    "name": "Sam",
+    "user_id": "20",
+    "breed": "Somali",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-08T08:02:53.660Z",
+    "updated_at": "2023-03-08T08:02:53.660Z"
+    },
+    {
+    "id": 72,
+    "name": "Daisy",
+    "user_id": "13",
+    "breed": "Colorpoint Shorthair",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-08T08:02:53.784Z",
+    "updated_at": "2023-03-08T08:02:53.784Z"
+    },
+    {
+    "id": 73,
+    "name": "Angel",
+    "user_id": "16",
+    "breed": "Colorpoint Shorthair",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-08T08:02:53.898Z",
+    "updated_at": "2023-03-08T08:02:53.898Z"
+    },
+    {
+    "id": 74,
+    "name": "Lucky",
+    "user_id": "21",
+    "breed": "Cyprus",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-08T08:02:54.012Z",
+    "updated_at": "2023-03-08T08:02:54.012Z"
+    },
+    {
+    "id": 75,
+    "name": "Cookie Hopper",
+    "user_id": "21",
+    "breed": "Sokoke",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-08T08:02:54.136Z",
+    "updated_at": "2023-03-08T08:02:54.136Z"
+    },
+    {
+    "id": 76,
+    "name": "Butterscotch",
+    "user_id": "12",
+    "breed": "Balinese",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-08T08:02:54.318Z",
+    "updated_at": "2023-03-08T08:02:54.318Z"
+    },
+    {
+    "id": 77,
+    "name": "Alexander Hameowlton",
+    "user_id": "16",
+    "breed": "Selkirk Rex",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-08T08:02:54.480Z",
+    "updated_at": "2023-03-08T08:02:54.480Z"
+    },
+    {
+    "id": 78,
+    "name": "Milo",
+    "user_id": "20",
+    "breed": "Burmilla",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-08T08:02:54.604Z",
+    "updated_at": "2023-03-08T08:02:54.604Z"
+    },
+    {
+    "id": 79,
+    "name": "Charlie",
+    "user_id": "16",
+    "breed": "Korn Ja",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-08T08:02:54.729Z",
+    "updated_at": "2023-03-08T08:02:54.729Z"
+    },
+    {
+    "id": 80,
+    "name": "Chloe",
+    "user_id": "12",
+    "breed": "Munchkin",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-08T08:02:56.273Z",
+    "updated_at": "2023-03-08T08:02:56.273Z"
+    },
+    {
+    "id": 81,
+    "name": "McFluffy Pants",
+    "user_id": "19",
+    "breed": "Scottish Fold",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-08T08:02:56.694Z",
+    "updated_at": "2023-03-08T08:02:56.694Z"
+    },
+    {
+    "id": 82,
+    "name": "Smudge",
+    "user_id": "12",
+    "breed": "British Longhair",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-08T08:02:56.875Z",
+    "updated_at": "2023-03-08T08:02:56.875Z"
+    },
+    {
+    "id": 83,
+    "name": "Lucy",
+    "user_id": "14",
+    "breed": "Oriental Longhair",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-08T08:02:57.076Z",
+    "updated_at": "2023-03-08T08:02:57.076Z"
+    },
+    {
+    "id": 84,
+    "name": "Lucy",
+    "user_id": "12",
+    "breed": "Australian Mist",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-08T08:02:57.185Z",
+    "updated_at": "2023-03-08T08:02:57.185Z"
+    },
+    {
+    "id": 85,
+    "name": "Poppy",
+    "user_id": "15",
+    "breed": "Bambino",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-08T08:02:57.336Z",
+    "updated_at": "2023-03-08T08:02:57.336Z"
+    },
+    {
+    "id": 86,
+    "name": "Oliver",
+    "user_id": "17",
+    "breed": "Arabian Mau",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-08T08:02:57.510Z",
+    "updated_at": "2023-03-08T08:02:57.510Z"
+    },
+    {
+    "id": 87,
+    "name": "Daisy",
+    "user_id": "17",
+    "breed": "Norwegian Forest Cat",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-08T08:02:57.776Z",
+    "updated_at": "2023-03-08T08:02:57.776Z"
+    },
+    {
+    "id": 88,
+    "name": "Tuna",
+    "user_id": "12",
+    "breed": "Japanese Bobtail",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-08T08:02:58.183Z",
+    "updated_at": "2023-03-08T08:02:58.183Z"
+    },
+    {
+    "id": 89,
+    "name": "Chicken",
+    "user_id": "13",
+    "breed": "Ukrainian Levkoy",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-08T08:02:59.111Z",
+    "updated_at": "2023-03-08T08:02:59.111Z"
+    },
+    {
+    "id": 90,
+    "name": "Doctor Cucumber",
+    "user_id": "13",
+    "breed": "Sokoke",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-08T08:02:59.324Z",
+    "updated_at": "2023-03-08T08:02:59.324Z"
+    },
+    {
+    "id": 91,
+    "name": "Felix",
+    "user_id": "12",
+    "breed": "Chartreux",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-08T08:02:59.456Z",
+    "updated_at": "2023-03-08T08:02:59.456Z"
+    },
+    {
+    "id": 92,
+    "name": "Smokey",
+    "user_id": "16",
+    "breed": "Himalayan, or Colorpoint Persian",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-08T08:02:59.585Z",
+    "updated_at": "2023-03-08T08:02:59.585Z"
+    },
+    {
+    "id": 93,
+    "name": "Doctor Cucumber",
+    "user_id": "16",
+    "breed": "Ocicat",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-08T08:02:59.747Z",
+    "updated_at": "2023-03-08T08:02:59.747Z"
+    },
+    {
+    "id": 94,
+    "name": "Max",
+    "user_id": "15",
+    "breed": "Savannah",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-08T08:02:59.860Z",
+    "updated_at": "2023-03-08T08:02:59.860Z"
+    },
+    {
+    "id": 95,
+    "name": "Oliver",
+    "user_id": "13",
+    "breed": "Cheetoh",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-08T08:02:59.995Z",
+    "updated_at": "2023-03-08T08:02:59.995Z"
+    },
+    {
+    "id": 96,
+    "name": "Tony",
+    "user_id": "19",
+    "breed": "Ojos Azules",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-08T08:03:00.181Z",
+    "updated_at": "2023-03-08T08:03:00.181Z"
+    },
+    {
+    "id": 97,
+    "name": "Sooty",
+    "user_id": "20",
+    "breed": "Bengal",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-08T08:03:00.369Z",
+    "updated_at": "2023-03-08T08:03:00.369Z"
+    },
+    {
+    "id": 98,
+    "name": "Missy",
+    "user_id": "22",
+    "breed": "Manx",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-08T08:03:00.526Z",
+    "updated_at": "2023-03-08T08:03:00.526Z"
+    },
+    {
+    "id": 99,
+    "name": "Molly",
+    "user_id": "20",
+    "breed": "Pixie-bob",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-08T08:03:01.922Z",
+    "updated_at": "2023-03-08T08:03:01.922Z"
+    },
+    {
+    "id": 100,
+    "name": "Doctor Cucumber",
+    "user_id": "18",
+    "breed": "Minskin",
+    "image_url": "https://robohash.org/my-own-slug.jpg?size=50x50&set=set1",
+    "created_at": "2023-03-08T08:03:02.189Z",
+    "updated_at": "2023-03-08T08:03:02.189Z"
     }
     ]
