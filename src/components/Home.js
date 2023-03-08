@@ -10,12 +10,12 @@ return(
      <NavLink exact to = "/home">
         <h2>HOME</h2>
      </NavLink>
-     {/* <NavLink exact to = "/login">
+     { <NavLink exact to = "/login">
         <h2>LOGIN</h2>
-     </NavLink> */}
-     {/* <NavLink exact to = "/signup">
+     </NavLink> }
+     { <NavLink exact to = "/signup">
         <h2>SIGN UP</h2>
-     </NavLink> */}
+     </NavLink> }
      <NavLink exact to = "/addpet">
         <h2>ADD PET</h2>
      </NavLink>
